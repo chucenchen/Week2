@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.project_section{
+  color: rgb(255, 255, 255);
+}
+.project_heading{
+  animation-duration: initial;
+  animation: pulse 10s;
+}
+@keyframes pulse{
+  0%{
+    color: white;
+  }
+    100%{
+      color:black ;
+    }
+}
